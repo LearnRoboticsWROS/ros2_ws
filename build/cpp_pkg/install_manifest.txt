@@ -1,0 +1,16 @@
+/home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/node_cpp
+/home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+/home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv
+/home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+/home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.xml

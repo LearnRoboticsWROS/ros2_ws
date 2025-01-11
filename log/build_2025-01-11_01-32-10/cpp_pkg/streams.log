@@ -1,0 +1,68 @@
+[0.009s] Invoking command in '/home/fra/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fra/ros2_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_ws/install/cpp_pkg
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.147s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.221s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.221s] -- Detecting C compile features
+[0.222s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.443s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.528s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.571s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.576s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.585s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.668s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.742s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.764s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.798s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.806s] -- Looking for pthread.h
+[0.866s] -- Looking for pthread.h - found
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.929s] -- Found Threads: TRUE  
+[0.990s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.064s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.064s] -- Configured cppcheck include dirs: 
+[1.065s] -- Configured cppcheck exclude dirs and/or files: 
+[1.065s] -- Added test 'lint_cmake' to check CMake code style
+[1.066s] -- Added test 'uncrustify' to check C / C++ code style
+[1.066s] -- Configured uncrustify additional arguments: 
+[1.067s] -- Added test 'xmllint' to check XML markup files
+[1.068s] -- Configuring done
+[1.075s] -- Generating done
+[1.078s] -- Build files have been written to: /home/fra/ros2_ws/build/cpp_pkg
+[1.085s] Invoked command in '/home/fra/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fra/ros2_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_ws/install/cpp_pkg
+[1.086s] Invoking command in '/home/fra/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12
+[1.127s] [ 50%] [32mBuilding CXX object CMakeFiles/node_cpp.dir/src/node_cpp.cpp.o[0m
+[3.872s] [100%] [32m[1mLinking CXX executable node_cpp[0m
+[3.971s] [100%] Built target node_cpp
+[3.980s] Invoked command in '/home/fra/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12
+[3.988s] Invoking command in '/home/fra/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_ws/build/cpp_pkg
+[3.994s] -- Install configuration: ""
+[3.995s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/node_cpp
+[3.995s] -- Set runtime path of "/home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/node_cpp" to ""
+[3.995s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[3.995s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[3.995s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[3.995s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[3.995s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[3.996s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[3.997s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.xml
+[3.998s] Invoked command in '/home/fra/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_ws/build/cpp_pkg
