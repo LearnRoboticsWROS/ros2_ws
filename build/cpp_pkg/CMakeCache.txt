@@ -272,7 +272,7 @@ SITE:STRING=fra-Aspire-A715-75G
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -372,6 +372,9 @@ cpp_pkg_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 cpp_pkg_SOURCE_DIR:STATIC=/home/fra/ros2_ws/src/cpp_pkg
+
+//The directory containing a CMake configuration file for custom_interface.
+custom_interface_DIR:PATH=/home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr

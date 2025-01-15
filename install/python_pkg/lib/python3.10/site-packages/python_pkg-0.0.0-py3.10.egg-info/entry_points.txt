@@ -1,0 +1,6 @@
+[console_scripts]
+node_python = python_pkg.node_python:main
+publisher_py = python_pkg.publisher_py:main
+server_py = python_pkg.server_py:main
+subscriber_py = python_pkg.subscriber_py:main
+

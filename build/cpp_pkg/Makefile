@@ -210,6 +210,45 @@ node_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_cpp.dir/build.make CMakeFiles/node_cpp.dir/build
 .PHONY : node_cpp/fast
 
+#=============================================================================
+# Target rules for targets named publisher_cpp
+
+# Build rule for target.
+publisher_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publisher_cpp
+.PHONY : publisher_cpp
+
+# fast build rule for target.
+publisher_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_cpp.dir/build.make CMakeFiles/publisher_cpp.dir/build
+.PHONY : publisher_cpp/fast
+
+#=============================================================================
+# Target rules for targets named subscriber_cpp
+
+# Build rule for target.
+subscriber_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 subscriber_cpp
+.PHONY : subscriber_cpp
+
+# fast build rule for target.
+subscriber_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_cpp.dir/build.make CMakeFiles/subscriber_cpp.dir/build
+.PHONY : subscriber_cpp/fast
+
+#=============================================================================
+# Target rules for targets named server_cpp
+
+# Build rule for target.
+server_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server_cpp
+.PHONY : server_cpp
+
+# fast build rule for target.
+server_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_cpp.dir/build.make CMakeFiles/server_cpp.dir/build
+.PHONY : server_cpp/fast
+
 src/node_cpp.o: src/node_cpp.cpp.o
 .PHONY : src/node_cpp.o
 
@@ -234,6 +273,78 @@ src/node_cpp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_cpp.dir/build.make CMakeFiles/node_cpp.dir/src/node_cpp.cpp.s
 .PHONY : src/node_cpp.cpp.s
 
+src/publisher_cpp.o: src/publisher_cpp.cpp.o
+.PHONY : src/publisher_cpp.o
+
+# target to build an object file
+src/publisher_cpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_cpp.dir/build.make CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o
+.PHONY : src/publisher_cpp.cpp.o
+
+src/publisher_cpp.i: src/publisher_cpp.cpp.i
+.PHONY : src/publisher_cpp.i
+
+# target to preprocess a source file
+src/publisher_cpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_cpp.dir/build.make CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.i
+.PHONY : src/publisher_cpp.cpp.i
+
+src/publisher_cpp.s: src/publisher_cpp.cpp.s
+.PHONY : src/publisher_cpp.s
+
+# target to generate assembly for a file
+src/publisher_cpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_cpp.dir/build.make CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.s
+.PHONY : src/publisher_cpp.cpp.s
+
+src/server_cpp.o: src/server_cpp.cpp.o
+.PHONY : src/server_cpp.o
+
+# target to build an object file
+src/server_cpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_cpp.dir/build.make CMakeFiles/server_cpp.dir/src/server_cpp.cpp.o
+.PHONY : src/server_cpp.cpp.o
+
+src/server_cpp.i: src/server_cpp.cpp.i
+.PHONY : src/server_cpp.i
+
+# target to preprocess a source file
+src/server_cpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_cpp.dir/build.make CMakeFiles/server_cpp.dir/src/server_cpp.cpp.i
+.PHONY : src/server_cpp.cpp.i
+
+src/server_cpp.s: src/server_cpp.cpp.s
+.PHONY : src/server_cpp.s
+
+# target to generate assembly for a file
+src/server_cpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_cpp.dir/build.make CMakeFiles/server_cpp.dir/src/server_cpp.cpp.s
+.PHONY : src/server_cpp.cpp.s
+
+src/subscriber_cpp.o: src/subscriber_cpp.cpp.o
+.PHONY : src/subscriber_cpp.o
+
+# target to build an object file
+src/subscriber_cpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_cpp.dir/build.make CMakeFiles/subscriber_cpp.dir/src/subscriber_cpp.cpp.o
+.PHONY : src/subscriber_cpp.cpp.o
+
+src/subscriber_cpp.i: src/subscriber_cpp.cpp.i
+.PHONY : src/subscriber_cpp.i
+
+# target to preprocess a source file
+src/subscriber_cpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_cpp.dir/build.make CMakeFiles/subscriber_cpp.dir/src/subscriber_cpp.cpp.i
+.PHONY : src/subscriber_cpp.cpp.i
+
+src/subscriber_cpp.s: src/subscriber_cpp.cpp.s
+.PHONY : src/subscriber_cpp.s
+
+# target to generate assembly for a file
+src/subscriber_cpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_cpp.dir/build.make CMakeFiles/subscriber_cpp.dir/src/subscriber_cpp.cpp.s
+.PHONY : src/subscriber_cpp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +361,21 @@ help:
 	@echo "... cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... node_cpp"
+	@echo "... publisher_cpp"
+	@echo "... server_cpp"
+	@echo "... subscriber_cpp"
 	@echo "... src/node_cpp.o"
 	@echo "... src/node_cpp.i"
 	@echo "... src/node_cpp.s"
+	@echo "... src/publisher_cpp.o"
+	@echo "... src/publisher_cpp.i"
+	@echo "... src/publisher_cpp.s"
+	@echo "... src/server_cpp.o"
+	@echo "... src/server_cpp.i"
+	@echo "... src/server_cpp.s"
+	@echo "... src/subscriber_cpp.o"
+	@echo "... src/subscriber_cpp.i"
+	@echo "... src/subscriber_cpp.s"
 .PHONY : help
 
 

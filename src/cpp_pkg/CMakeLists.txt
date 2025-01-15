@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(custom_interface REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,8 +26,20 @@ endif()
 add_executable(node_cpp src/node_cpp.cpp)
 ament_target_dependencies(node_cpp rclcpp)
 
+add_executable(publisher_cpp src/publisher_cpp.cpp)
+ament_target_dependencies(publisher_cpp rclcpp std_msgs)
+
+add_executable(subscriber_cpp src/subscriber_cpp.cpp)
+ament_target_dependencies(subscriber_cpp rclcpp std_msgs)
+
+add_executable(server_cpp src/server_cpp.cpp)
+ament_target_dependencies(server_cpp rclcpp std_msgs custom_interface)
+
 install(TARGETS 
   node_cpp
+  publisher_cpp
+  subscriber_cpp
+  server_cpp
   DESTINATION lib/${PROJECT_NAME}/
 )
 

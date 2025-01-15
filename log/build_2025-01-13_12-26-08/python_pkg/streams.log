@@ -1,0 +1,24 @@
+[0.519s] Invoking command in '/home/fra/ros2_ws/src/python_pkg': PYTHONPATH=/home/fra/ros2_ws/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/fra/ros2_ws/build/python_pkg/build install --record /home/fra/ros2_ws/build/python_pkg/install.log --single-version-externally-managed install_data
+[0.730s] running egg_info
+[0.730s] writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO
+[0.731s] writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt
+[0.731s] writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt
+[0.731s] writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt
+[0.731s] writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt
+[0.732s] reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.733s] writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.733s] running build
+[0.733s] running build_py
+[0.733s] running install
+[0.734s] running install_lib
+[0.735s] running install_data
+[0.735s] running install_egg_info
+[0.736s] removing '/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.736s] Copying ../../build/python_pkg/python_pkg.egg-info to /home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info
+[0.737s] running install_scripts
+[0.755s] Installing node_python script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[0.755s] Installing publisher_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[0.755s] Installing server_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[0.755s] Installing subscriber_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[0.755s] writing list of installed files to '/home/fra/ros2_ws/build/python_pkg/install.log'
+[0.773s] Invoked command in '/home/fra/ros2_ws/src/python_pkg' returned '0': PYTHONPATH=/home/fra/ros2_ws/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/fra/ros2_ws/build/python_pkg/build install --record /home/fra/ros2_ws/build/python_pkg/install.log --single-version-externally-managed install_data
