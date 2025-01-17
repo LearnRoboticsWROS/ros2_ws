@@ -1,0 +1,10 @@
+[01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:[m[K In constructor ‘[01m[KNumberPublisher::NumberPublisher()[m[K’:
+[01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:8:5:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+    8 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:14:136:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishNumber[m[K’ is not a member of ‘[01m[KNumberPublisher[m[K’
+   14 |         number_timer_ = this->create_wall_timer(std::chrono::milliseconds((int)(1000/publish_frequency_)), std::bind(&NumberPublisher::[01;31m[KpublishNumber[m[K, this));
+      |                                                                                                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:76: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/publisher_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

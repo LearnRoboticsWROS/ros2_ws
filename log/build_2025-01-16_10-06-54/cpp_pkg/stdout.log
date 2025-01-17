@@ -1,0 +1,4 @@
+[ 25%] Built target subscriber_cpp
+[ 37%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[ 62%] Built target server_cpp
+[ 87%] Built target node_cpp

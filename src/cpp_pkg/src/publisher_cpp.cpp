@@ -4,10 +4,17 @@
 class NumberPublisher : public rclcpp::Node
 {
 public:
-    NumberPublisher(): Node("number_publisher"), number_(1)
+    NumberPublisher(): Node("number_publisher") 
     {
+        this->declare_parameter<int>("number_to_publish", 1);
+        this->declare_parameter<double>("number_publish_frequency", 1.0);
+
+        number_ = this->get_parameter("number_to_publish").as_int();
+        double publish_frequency_ = this->get_parameter("number_publish_frequency").as_double();
+
         publisher_ = this->create_publisher<std_msgs::msg::Int64>("number", 10);
-        number_timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&NumberPublisher::publishNumber, this));
+        number_timer_ = this->create_wall_timer(std::chrono::milliseconds((int)(1000.0/publish_frequency_)), 
+                                                std::bind(&NumberPublisher::publishNumber, this));
         RCLCPP_INFO(this->get_logger(), "First node in CPP in ROS2"); 
     }
 private:

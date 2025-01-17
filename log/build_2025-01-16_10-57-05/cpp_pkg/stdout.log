@@ -1,0 +1,5 @@
+[ 25%] Built target server_cpp
+[35m[1mConsolidate compiler generated dependencies of target publisher_cpp[0m
+[ 50%] Built target subscriber_cpp
+[ 62%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[ 87%] Built target node_cpp

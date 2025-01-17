@@ -1,0 +1,2 @@
+Invoking command in '/home/fra/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12
+Invoked command in '/home/fra/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12

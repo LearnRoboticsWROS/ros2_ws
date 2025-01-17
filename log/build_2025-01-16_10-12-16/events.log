@@ -1,0 +1,333 @@
+[0.000000] (-) TimerEvent: {}
+[0.002896] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.003010] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict([('custom_interface', '/home/fra/ros2_ws/install/custom_interface')])}
+[0.003060] (python_pkg) JobQueued: {'identifier': 'python_pkg', 'dependencies': OrderedDict([('custom_interface', '/home/fra/ros2_ws/install/custom_interface')])}
+[0.003099] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.012758] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.013352] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[0.014430] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fra/ros2_ws/build/custom_interface', '--', '-j12', '-l12'], 'cwd': '/home/fra/ros2_ws/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fra'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fra/ros2_ws/install/custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fra'), ('OLDPWD', '/home/fra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2336'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fra-Aspire-A715-75G:@/tmp/.ICE-unix/2093,unix/fra-Aspire-A715-75G:/tmp/.ICE-unix/2093'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e864f43_4d52_4028_8c73_41e41277769e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fra/ros2_ws/install/python_pkg:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fra/ros2_ws/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble')]), 'shell': False}
+[0.092752] (custom_interface) StdoutLine: {'line': b'[  9%] Built target custom_interface__rosidl_generator_c\n'}
+[0.095771] (custom_interface) StdoutLine: {'line': b'[ 12%] Built target custom_interface__cpp\n'}
+[0.100978] (-) TimerEvent: {}
+[0.140077] (custom_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_custom_interface\n'}
+[0.153918] (custom_interface) StdoutLine: {'line': b'[ 22%] Built target custom_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.154147] (custom_interface) StdoutLine: {'line': b'[ 32%] Built target custom_interface__rosidl_typesupport_c\n'}
+[0.154260] (custom_interface) StdoutLine: {'line': b'[ 41%] Built target custom_interface__rosidl_typesupport_introspection_c\n'}
+[0.160577] (custom_interface) StdoutLine: {'line': b'[ 51%] Built target custom_interface__rosidl_typesupport_cpp\n'}
+[0.165798] (custom_interface) StdoutLine: {'line': b'[ 61%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.201083] (-) TimerEvent: {}
+[0.203068] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.244835] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface\n'}
+[0.287864] (custom_interface) StdoutLine: {'line': b'[ 74%] Built target custom_interface__py\n'}
+[0.301197] (-) TimerEvent: {}
+[0.335614] (custom_interface) StdoutLine: {'line': b'[ 80%] Built target custom_interface__rosidl_generator_py\n'}
+[0.383434] (custom_interface) StdoutLine: {'line': b'[ 87%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.391414] (custom_interface) StdoutLine: {'line': b'[ 93%] Built target custom_interface__rosidl_typesupport_c__pyext\n'}
+[0.395315] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.401316] (-) TimerEvent: {}
+[0.501643] (-) TimerEvent: {}
+[0.583315] (custom_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.585518] (custom_interface) StdoutLine: {'line': b'writing custom_interface.egg-info/PKG-INFO\n'}
+[0.585706] (custom_interface) StdoutLine: {'line': b'writing dependency_links to custom_interface.egg-info/dependency_links.txt\n'}
+[0.585851] (custom_interface) StdoutLine: {'line': b'writing top-level names to custom_interface.egg-info/top_level.txt\n'}
+[0.588380] (custom_interface) StdoutLine: {'line': b"reading manifest file 'custom_interface.egg-info/SOURCES.txt'\n"}
+[0.589498] (custom_interface) StdoutLine: {'line': b"writing manifest file 'custom_interface.egg-info/SOURCES.txt'\n"}
+[0.601758] (-) TimerEvent: {}
+[0.643419] (custom_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_interface_egg\n'}
+[0.657186] (custom_interface) CommandEnded: {'returncode': 0}
+[0.658515] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'install'}
+[0.671025] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fra/ros2_ws/build/custom_interface'], 'cwd': '/home/fra/ros2_ws/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fra'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fra/ros2_ws/install/custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fra'), ('OLDPWD', '/home/fra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2336'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fra-Aspire-A715-75G:@/tmp/.ICE-unix/2093,unix/fra-Aspire-A715-75G:/tmp/.ICE-unix/2093'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e864f43_4d52_4028_8c73_41e41277769e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fra/ros2_ws/install/python_pkg:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fra/ros2_ws/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble')]), 'shell': False}
+[0.682018] (custom_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.682552] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface\n'}
+[0.683075] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface\n'}
+[0.683339] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg\n'}
+[0.683561] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.683718] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv\n'}
+[0.683959] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/reset_counter.h\n'}
+[0.684122] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail\n'}
+[0.684278] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__struct.h\n'}
+[0.684447] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__functions.h\n'}
+[0.684599] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__functions.c\n'}
+[0.684745] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__type_support.h\n'}
+[0.684930] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/library_path.sh\n'}
+[0.685144] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/library_path.dsv\n'}
+[0.685340] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so\n'}
+[0.685498] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface\n'}
+[0.688321] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg\n'}
+[0.688569] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.688758] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv\n'}
+[0.688935] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail\n'}
+[0.689101] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h\n'}
+[0.689250] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.689427] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface\n'}
+[0.689582] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg\n'}
+[0.689730] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.689909] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv\n'}
+[0.690072] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail\n'}
+[0.690222] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__type_support.c\n'}
+[0.690415] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h\n'}
+[0.690570] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so\n'}
+[0.690748] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so\n'}
+[0.690879] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface\n'}
+[0.691014] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg\n'}
+[0.691138] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.691266] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv\n'}
+[0.691398] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/reset_counter.hpp\n'}
+[0.691506] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail\n'}
+[0.691613] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__type_support.hpp\n'}
+[0.691720] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__struct.hpp\n'}
+[0.691834] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__traits.hpp\n'}
+[0.697391] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__builder.hpp\n'}
+[0.697568] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface\n'}
+[0.697742] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg\n'}
+[0.697889] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.698044] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv\n'}
+[0.698181] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail\n'}
+[0.698337] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.698485] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/dds_fastrtps\n'}
+[0.698620] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.698757] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface\n'}
+[0.698905] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv\n'}
+[0.699056] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail\n'}
+[0.699193] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__type_support.cpp\n'}
+[0.699351] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.699489] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.699625] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so\n'}
+[0.699759] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/pythonpath.sh\n'}
+[0.703928] (-) TimerEvent: {}
+[0.704142] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/pythonpath.dsv\n'}
+[0.704377] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info\n'}
+[0.704542] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.704719] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.704889] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.705065] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.705230] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface\n'}
+[0.705427] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.705605] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.705771] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.705965] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.706149] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.706315] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c\n'}
+[0.706475] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv\n'}
+[0.706635] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_reset_counter.py\n'}
+[0.706824] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_reset_counter_s.c\n'}
+[0.706997] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py\n'}
+[0.707152] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/libcustom_interface__rosidl_generator_py.so\n'}
+[0.707353] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py\n'}
+[0.755006] (custom_interface) StdoutLine: {'line': b"Listing '/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface'...\n"}
+[0.755259] (custom_interface) StdoutLine: {'line': b"Listing '/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv'...\n"}
+[0.757378] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.757908] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.758358] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.758897] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so\n'}
+[0.759333] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/srv/ResetCounter.idl\n'}
+[0.759554] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/srv/ResetCounter.srv\n'}
+[0.759812] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/srv/ResetCounter_Request.msg\n'}
+[0.760028] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/srv/ResetCounter_Response.msg\n'}
+[0.760261] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface\n'}
+[0.760533] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface\n'}
+[0.760705] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh\n'}
+[0.760849] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv\n'}
+[0.762063] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/path.sh\n'}
+[0.762267] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/environment/path.dsv\n'}
+[0.762437] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/local_setup.bash\n'}
+[0.762645] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/local_setup.sh\n'}
+[0.762840] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/local_setup.zsh\n'}
+[0.763025] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/local_setup.dsv\n'}
+[0.763243] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/package.dsv\n'}
+[0.765742] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/ament_index/resource_index/packages/custom_interface\n'}
+[0.765982] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport.cmake\n'}
+[0.766135] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.766264] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.766565] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.766713] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.766896] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.767484] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake\n'}
+[0.768401] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.768548] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cppExport.cmake\n'}
+[0.768879] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.769500] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.769649] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.769796] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.769933] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.770068] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.770201] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport.cmake\n'}
+[0.770325] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.770441] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.770569] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.770716] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.770841] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.771002] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.771128] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.771264] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.771389] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake\n'}
+[0.771511] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake\n'}
+[0.771630] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/fra/ros2_ws/install/custom_interface/share/custom_interface/package.xml\n'}
+[0.771765] (custom_interface) CommandEnded: {'returncode': 0}
+[0.808043] (-) TimerEvent: {}
+[0.813258] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 0}
+[0.814968] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.828311] (python_pkg) JobStarted: {'identifier': 'python_pkg'}
+[0.838016] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.840176] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[0.840257] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fra/ros2_ws/build/cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/fra/ros2_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fra'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fra/ros2_ws/install/custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fra'), ('OLDPWD', '/home/fra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2336'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fra-Aspire-A715-75G:@/tmp/.ICE-unix/2093,unix/fra-Aspire-A715-75G:/tmp/.ICE-unix/2093'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e864f43_4d52_4028_8c73_41e41277769e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fra/ros2_ws/install/python_pkg:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fra/ros2_ws/build/cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble')]), 'shell': False}
+[0.908144] (-) TimerEvent: {}
+[0.919980] (cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher_cpp\x1b[0m\n'}
+[0.927916] (cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target server_cpp\n'}
+[0.937305] (cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target node_cpp\n'}
+[0.968390] (cpp_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o\x1b[0m\n'}
+[0.971681] (cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target subscriber_cpp\n'}
+[1.008302] (-) TimerEvent: {}
+[1.108742] (-) TimerEvent: {}
+[1.209599] (-) TimerEvent: {}
+[1.311649] (-) TimerEvent: {}
+[1.412038] (-) TimerEvent: {}
+[1.513140] (-) TimerEvent: {}
+[1.613672] (-) TimerEvent: {}
+[1.714362] (-) TimerEvent: {}
+[1.818352] (-) TimerEvent: {}
+[1.826198] (python_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_pkg', 'build', '--build-base', '/home/fra/ros2_ws/build/python_pkg/build', 'install', '--record', '/home/fra/ros2_ws/build/python_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fra/ros2_ws/src/python_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fra', 'LC_TIME': 'de_CH.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fra/ros2_ws/install/custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fra', 'OLDPWD': '/home/fra', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_CH.UTF-8', 'SYSTEMD_EXEC_PID': '2336', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/fra/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'fra', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fra', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fra-Aspire-A715-75G:@/tmp/.ICE-unix/2093,unix/fra-Aspire-A715-75G:/tmp/.ICE-unix/2093', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_CH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0e864f43_4d52_4028_8c73_41e41277769e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_CH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fra/ros2_ws/install/python_pkg:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/custom_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_CH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_CH.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_CH.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fra/ros2_ws/build/python_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fra/ros2_ws/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_CH.UTF-8', 'LC_PAPER': 'de_CH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg'}, 'shell': False}
+[1.918448] (-) TimerEvent: {}
+[2.019016] (-) TimerEvent: {}
+[2.120947] (-) TimerEvent: {}
+[2.213182] (python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.214331] (python_pkg) StdoutLine: {'line': b'writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO\n'}
+[2.215969] (python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt\n'}
+[2.216152] (python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt\n'}
+[2.216300] (python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt\n'}
+[2.216440] (python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt\n'}
+[2.217582] (python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'\n"}
+[2.219975] (python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'\n"}
+[2.220186] (python_pkg) StdoutLine: {'line': b'running build\n'}
+[2.220335] (python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.220475] (python_pkg) StdoutLine: {'line': b'running install\n'}
+[2.220662] (python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.221013] (-) TimerEvent: {}
+[2.222068] (python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.222315] (python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.228216] (python_pkg) StdoutLine: {'line': b"removing '/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.228535] (python_pkg) StdoutLine: {'line': b'Copying ../../build/python_pkg/python_pkg.egg-info to /home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info\n'}
+[2.228706] (python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.260336] (python_pkg) StdoutLine: {'line': b'Installing node_python script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg\n'}
+[2.260676] (python_pkg) StdoutLine: {'line': b'Installing publisher_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg\n'}
+[2.260904] (python_pkg) StdoutLine: {'line': b'Installing server_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg\n'}
+[2.261082] (python_pkg) StdoutLine: {'line': b'Installing subscriber_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg\n'}
+[2.261475] (python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/fra/ros2_ws/build/python_pkg/install.log'\n"}
+[2.302219] (python_pkg) CommandEnded: {'returncode': 0}
+[2.308975] (python_pkg) JobEnded: {'identifier': 'python_pkg', 'rc': 0}
+[2.321122] (-) TimerEvent: {}
+[2.422317] (-) TimerEvent: {}
+[2.522600] (-) TimerEvent: {}
+[2.622941] (-) TimerEvent: {}
+[2.723954] (-) TimerEvent: {}
+[2.824328] (-) TimerEvent: {}
+[2.924836] (-) TimerEvent: {}
+[3.025448] (-) TimerEvent: {}
+[3.126961] (-) TimerEvent: {}
+[3.227307] (-) TimerEvent: {}
+[3.329952] (-) TimerEvent: {}
+[3.430316] (-) TimerEvent: {}
+[3.530852] (-) TimerEvent: {}
+[3.631981] (-) TimerEvent: {}
+[3.732577] (-) TimerEvent: {}
+[3.832930] (-) TimerEvent: {}
+[3.934151] (-) TimerEvent: {}
+[4.034688] (-) TimerEvent: {}
+[4.136034] (-) TimerEvent: {}
+[4.236641] (-) TimerEvent: {}
+[4.337950] (-) TimerEvent: {}
+[4.438445] (-) TimerEvent: {}
+[4.538950] (-) TimerEvent: {}
+[4.560673] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNumberPublisher::NumberPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.564342] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:9:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KNumberPublisher::declare_parameter(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.564467] (cpp_pkg) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Kthis->declare_parameter("number_to_publish")\x1b[m\x1b[K;\n'}
+[4.564577] (cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.564674] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.564763] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.564866] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.565005] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1\x1b[m\x1b[K:\n'}
+[4.565094] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.565206] (cpp_pkg) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.565319] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.565421] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.565527] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:9:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.565645] (cpp_pkg) StderrLine: {'line': b'    9 |         \x1b[01;36m\x1b[Kthis->declare_parameter("number_to_publish")\x1b[m\x1b[K;\n'}
+[4.565783] (cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.565904] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.566003] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.566093] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.566180] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1\x1b[m\x1b[K:\n'}
+[4.566269] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.566359] (cpp_pkg) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.566446] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.566534] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.566622] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:9:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.566711] (cpp_pkg) StderrLine: {'line': b'    9 |         \x1b[01;36m\x1b[Kthis->declare_parameter("number_to_publish")\x1b[m\x1b[K;\n'}
+[4.566825] (cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.572708] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.572847] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.572966] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.573069] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1\x1b[m\x1b[K:\n'}
+[4.573181] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.573283] (cpp_pkg) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.573380] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.573475] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.573572] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.573687] (cpp_pkg) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.573783] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.573883] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.574028] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:10:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KNumberPublisher::declare_parameter(const char [25])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.574118] (cpp_pkg) StderrLine: {'line': b'   10 |         \x1b[01;31m\x1b[Kthis->declare_parameter("number_publish_frequency")\x1b[m\x1b[K;\n'}
+[4.574205] (cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.574292] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.574379] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.574466] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.574552] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1\x1b[m\x1b[K:\n'}
+[4.574637] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.574725] (cpp_pkg) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.574810] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.574903] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.574996] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:10:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.575083] (cpp_pkg) StderrLine: {'line': b'   10 |         \x1b[01;36m\x1b[Kthis->declare_parameter("number_publish_frequency")\x1b[m\x1b[K;\n'}
+[4.575169] (cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.575255] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.575340] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.575426] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.575513] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1\x1b[m\x1b[K:\n'}
+[4.575598] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.575686] (cpp_pkg) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.575772] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.577877] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.577986] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:10:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.578074] (cpp_pkg) StderrLine: {'line': b'   10 |         \x1b[01;36m\x1b[Kthis->declare_parameter("number_publish_frequency")\x1b[m\x1b[K;\n'}
+[4.578157] (cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.578240] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.578330] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.578431] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.578517] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1\x1b[m\x1b[K:\n'}
+[4.578600] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.578692] (cpp_pkg) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.578799] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.578921] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.579055] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.579186] (cpp_pkg) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[4.579300] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.579421] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.639949] (-) TimerEvent: {}
+[4.740263] (-) TimerEvent: {}
+[4.840914] (-) TimerEvent: {}
+[4.941457] (-) TimerEvent: {}
+[5.041806] (-) TimerEvent: {}
+[5.143514] (-) TimerEvent: {}
+[5.245941] (-) TimerEvent: {}
+[5.346296] (-) TimerEvent: {}
+[5.446912] (-) TimerEvent: {}
+[5.547304] (-) TimerEvent: {}
+[5.648931] (-) TimerEvent: {}
+[5.749528] (-) TimerEvent: {}
+[5.830676] (cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:76: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1\n'}
+[5.831672] (cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/publisher_cpp.dir/all] Error 2\n'}
+[5.832133] (cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.832433] (cpp_pkg) CommandEnded: {'returncode': 2}
+[5.847286] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 2}
+[5.849376] (-) EventReactorShutdown: {}

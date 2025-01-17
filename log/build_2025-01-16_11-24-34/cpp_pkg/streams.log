@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/home/fra/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target publisher_cpp[0m
+[0.334s] [ 25%] Built target node_cpp
+[0.334s] [ 37%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[0.338s] [ 62%] Built target server_cpp
+[0.338s] [ 87%] Built target subscriber_cpp
+[4.810s] [100%] [32m[1mLinking CXX executable publisher_cpp[0m
+[5.008s] [100%] Built target publisher_cpp
+[5.024s] Invoked command in '/home/fra/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12
+[5.027s] Invoking command in '/home/fra/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_ws/build/cpp_pkg
+[5.032s] -- Install configuration: ""
+[5.033s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/node_cpp
+[5.033s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/publisher_cpp
+[5.034s] -- Set runtime path of "/home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/publisher_cpp" to ""
+[5.035s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/subscriber_cpp
+[5.035s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/lib/cpp_pkg/server_cpp
+[5.035s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[5.036s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[5.036s] -- Installing: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv
+[5.037s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[5.037s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[5.037s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[5.037s] -- Up-to-date: /home/fra/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.xml
+[5.045s] Invoked command in '/home/fra/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_ws/build/cpp_pkg

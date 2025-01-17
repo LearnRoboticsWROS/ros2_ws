@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher_cpp[0m
+[ 25%] Built target node_cpp
+[ 50%] Built target server_cpp
+[ 62%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[ 87%] Built target subscriber_cpp
+[01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:[m[K In constructor ‘[01m[KNumberPublisher::NumberPublisher()[m[K’:
+[01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:8:5:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+    8 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:17:77:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishNumber[m[K’ is not a member of ‘[01m[KNumberPublisher[m[K’
+   17 |                                                 std::bind(&NumberPublisher::[01;31m[KpublishNumber[m[K, this));
+      |                                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:76: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/publisher_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[0.741s] Invoking command in '/home/fra/ros2_ws/src/python_pkg': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg PYTHONPATH=/home/fra/ros2_ws/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/fra/ros2_ws/build/python_pkg/build install --record /home/fra/ros2_ws/build/python_pkg/install.log --single-version-externally-managed install_data
+[1.026s] running egg_info
+[1.027s] writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO
+[1.027s] writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt
+[1.027s] writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt
+[1.027s] writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt
+[1.029s] reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[1.033s] writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[1.033s] running build
+[1.033s] running build_py
+[1.033s] running install
+[1.033s] running install_lib
+[1.033s] running install_data
+[1.034s] running install_egg_info
+[1.034s] removing '/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.038s] Copying ../../build/python_pkg/python_pkg.egg-info to /home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info
+[1.038s] running install_scripts
+[1.060s] Installing node_python script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[1.060s] Installing publisher_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[1.060s] Installing server_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[1.060s] Installing subscriber_py script to /home/fra/ros2_ws/install/python_pkg/lib/python_pkg
+[1.061s] writing list of installed files to '/home/fra/ros2_ws/build/python_pkg/install.log'
+[1.094s] Invoked command in '/home/fra/ros2_ws/src/python_pkg' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg PYTHONPATH=/home/fra/ros2_ws/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/fra/ros2_ws/build/python_pkg/build install --record /home/fra/ros2_ws/build/python_pkg/install.log --single-version-externally-managed install_data

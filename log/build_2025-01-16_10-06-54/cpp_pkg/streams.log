@@ -1,0 +1,84 @@
+[0.028s] Invoking command in '/home/fra/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12
+[0.157s] [ 25%] Built target subscriber_cpp
+[0.172s] [ 37%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[0.187s] [ 62%] Built target server_cpp
+[0.193s] [ 87%] Built target node_cpp
+[4.310s] [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:[m[K In constructor ‘[01m[KNumberPublisher::NumberPublisher()[m[K’:
+[4.310s] [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:9:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNumberPublisher::declare_parameter(const char [18])[m[K’
+[4.310s]     9 |         [01;31m[Kthis->declare_parameter("number_to_publish")[m[K;
+[4.310s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.321s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.321s]                  from [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1[m[K:
+[4.321s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[4.322s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[4.325s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.325s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.325s] [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:9:32:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.325s]     9 |         [01;36m[Kthis->declare_parameter("number_to_publish")[m[K;
+[4.325s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.325s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.326s]                  from [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1[m[K:
+[4.326s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[4.326s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[4.326s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.327s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.327s] [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:9:32:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[4.327s]     9 |         [01;36m[Kthis->declare_parameter("number_to_publish")[m[K;
+[4.327s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.327s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.328s]                  from [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1[m[K:
+[4.328s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[4.328s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[4.328s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.328s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.328s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[4.328s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[4.328s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.328s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.329s] [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:10:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNumberPublisher::declare_parameter(const char [25])[m[K’
+[4.329s]    10 |         [01;31m[Kthis->declare_parameter("number_publish_frequency")[m[K;
+[4.329s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.329s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.329s]                  from [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1[m[K:
+[4.329s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[4.329s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[4.330s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.330s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.330s] [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:10:32:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.330s]    10 |         [01;36m[Kthis->declare_parameter("number_publish_frequency")[m[K;
+[4.330s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.330s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.330s]                  from [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1[m[K:
+[4.330s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[4.330s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[4.330s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.330s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.330s] [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:10:32:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[4.330s]    10 |         [01;36m[Kthis->declare_parameter("number_publish_frequency")[m[K;
+[4.331s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.331s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.331s]                  from [01m[K/home/fra/ros2_ws/src/cpp_pkg/src/publisher_cpp.cpp:1[m[K:
+[4.331s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[4.331s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[4.331s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.331s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.331s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[4.331s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[4.331s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.331s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[5.657s] gmake[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:76: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1
+[5.657s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/publisher_cpp.dir/all] Error 2
+[5.658s] gmake: *** [Makefile:146: all] Error 2
+[5.660s] Invoked command in '/home/fra/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/fra/ros2_ws/install/custom_interface:/home/fra/ros2_ws/install/cpp_pkg:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_ws/build/cpp_pkg -- -j12 -l12
